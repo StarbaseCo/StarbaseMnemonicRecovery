@@ -1,0 +1,15 @@
+{
+  "name": "starbase-mnemonic-recovery",
+  "version": "1.0.0",
+  "description": "A Mnemonic Recovery application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/StarbaseCo/StarbaseMnemonicRecovery",
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "~1.6.2"
+  }
+}
