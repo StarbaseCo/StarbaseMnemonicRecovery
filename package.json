@@ -1,13 +1,22 @@
 {
   "name": "starbase-mnemonic-recovery",
   "version": "1.0.0",
-  "description": "A Mnemonic Recovery application",
+  "description": "The Starbase Mnemonic Recovery application",
   "main": "main.js",
+  "build": {
+    "productName": "Mnemonic Recovery",
+    "appId": "co.starbase.mnemonic.recovery",
+    "mac": {
+      "category": "co.starbase.mnemonic.recovery"
+    }
+  },
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build:mac": "electron-packager ./ --platform=darwin --out=./dist --overwrite --icon=icon.icns",
+    "build": "electron-packager ./ --all --out=./dist --overwrite --icon=icon.icns"
   },
   "repository": "https://github.com/StarbaseCo/StarbaseMnemonicRecovery",
-  "author": "GitHub",
+  "author": "Ernane Luis",
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "~1.6.2"
