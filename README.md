@@ -1,44 +1,28 @@
-# electron-quick-start
+# Starbase Mnemonic Recovery App
+This app is developed to make your wallet container decryption as safe as possible. You’ll find the detailed HOW TO bellow.
 
-**Clone and run for a quick way to see Electron in action.**
+**Security notice: Starbase NEVER gets, stores or requests your decrypted data. All the decryption happens inside your PC and should NOT be shared with any third parties!**
 
-This is a minimal Electron application based on the [Quick Start Guide](http://electron.atom.io/docs/tutorial/quick-start) within the Electron documentation.
+Follow the next steps to decrypt your wallet container:
 
-**Use this app along with the [Electron API Demos](http://electron.atom.io/#get-started) app for API code examples to help you get started.**
+1) Download the app according to your *OS(Mac, Windows 32-bit, Windows 64-bits, Linux 32-bits, Linux-64-bits)* or the full repository to your local computer. https://github.com/StarbaseCo/StarbaseMnemonicRecovery/releases
 
-A basic Electron application needs just these files:
+2) Extract the zip file to your local computer and open the extracted folder.
 
-- `package.json` - Points to the app's main file and lists its details and dependencies.
-- `main.js` - Starts the app and creates a browser window to render HTML. This is the app's **main process**.
-- `index.html` - A web page to render. This is the app's **renderer process**.
+3) *Only If you download the full repository, In extracted folder open folder src. The other files are the executable files, you just need to run it.* 
+*(Only If you download the full repository)* Go to the src folder, find file index.html and open it with your web browser (avoid using IE browsers).
 
-You can learn more about each of these components within the [Quick Start Guide](http://electron.atom.io/docs/tutorial/quick-start).
+4) Copy the encrypted container which was emailed to you. 
 
-## To Use
+5) Paste your encrypted container (1) and your matching password (2) at the html page 
 
-To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+6) Press button "Decrypt", the result will be your mnemonic.
 
-```bash
-# Clone this repository
-git clone https://github.com/electron/electron-quick-start
-# Go into the repository
-cd electron-quick-start
-# Install dependencies
-npm install
-# Run the app
-npm start
-```
+<img width="808" alt="screen shot 2017-06-19 at 18 08 10" src="https://user-images.githubusercontent.com/1398769/27295733-32d59b6e-551e-11e7-9b55-b7c37d702f7c.png">
 
-Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
+7) Save this decrypted data and never share your decrypted private key with any third parties. Keep in mind that the person who has access to your decrypted private key has full control over your assets.
 
-## Resources for Learning Electron
 
-- [electron.atom.io/docs](http://electron.atom.io/docs) - all of Electron's documentation
-- [electron.atom.io/community/#boilerplates](http://electron.atom.io/community/#boilerplates) - sample starter apps created by the community
-- [electron/electron-quick-start](https://github.com/electron/electron-quick-start) - a very basic starter Electron app
-- [electron/simple-samples](https://github.com/electron/simple-samples) - small applications with ideas for taking them further
-- [electron/electron-api-demos](https://github.com/electron/electron-api-demos) - an Electron app that teaches you how to use Electron
-- [hokein/electron-sample-apps](https://github.com/hokein/electron-sample-apps) - small demo apps for the various Electron APIs
 
 ## License
 
